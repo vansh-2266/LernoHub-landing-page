@@ -1,0 +1,56 @@
+
+.nav-btn a:hover{
+    background: #fff;
+    color: #e4405f;
+    padding: 7px 12px;
+    border-radius: 5%;
+    font-weight: bold;
+
+    transition: all ease 0.7s;
+  }
+
+.course-banner{
+    text-align: center;
+    
+} 
+
+
+.course-banner h2{
+    font-size: 5rem;
+    padding: 10% 0% 2% 0%;
+    
+} 
+
+.formDiv{
+    display:flex ;
+    justify-content: center;
+}
+
+.course-banner form{
+    
+    width: 50%;
+    height: 50px;
+}
+
+.searchButton{
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    border: solid 1px;
+    margin: 0px 10px;
+}
+
+.searchButton:hover{
+    background-color: #fff;
+    color: #e4405f;
+}
+
+a{
+    text-decoration: none;
+}  
+
+@media screen and (max-width:500px) {
+    .nav__container a h4 {
+        padding: 0px;
+    }
+}
